@@ -8,67 +8,73 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
   </head>
   <body>
-    <div class="admin-panel">
-      <h1>Hospital Waiting List</h1>
-      <div>
-        <label for="patientName">Patient Name:</label>
-        <input class="labels" type="text" id="patientName" />
+    <!--------------- Mobile Message --------------->
+    <div class="mobile-message">
+      <h2>Please use application on larger screen</h2>
+    </div>
+
+    <div class="waiting-list-program">
+      <div class="admin-panel">
+        <h1>Hospital Waiting List</h1>
+        <div>
+          <label for="patientName">Patient Name:</label>
+          <input class="labels" type="text" id="patientName" />
+        </div>
+        <div>
+          <label for="doctorChoice">Doctor Choice:</label>
+          <select class="labels" id="doctorChoice">
+            <option value="any">Any Doctor</option>
+            <option value="drLee">Dr. Lee</option>
+            <option value="drSmith">Dr. Smith</option>
+            <option value="drWilliams">Dr. Williams</option>
+          </select>
+          <br />
+          <button id="addPatientButton">Add Patient</button>
+        </div>
       </div>
-      <div>
-        <label for="doctorChoice">Doctor Choice:</label>
-        <select class="labels" id="doctorChoice">
-          <option value="any">Any Doctor</option>
-          <option value="drLee">Dr. Lee</option>
-          <option value="drSmith">Dr. Smith</option>
-          <option value="drWilliams">Dr. Williams</option>
-        </select>
-        <br />
-        <button id="addPatientButton">Add Patient</button>
+
+      <div class="tables">
+        <table id="waiting-list-lee">
+          <thead>
+            <tr>
+              <th class="doc" colspan="2">Dr. Lee (Rm 1)</th>
+            </tr>
+            <tr>
+              <th>#</th>
+              <th>Patient Name</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+
+        <table id="waiting-list-smith">
+          <thead>
+            <tr>
+              <th class="doc" colspan="2">Dr. Smith (Rm 2)</th>
+            </tr>
+            <tr>
+              <th>#</th>
+              <th>Patient Name</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+
+        <table id="waiting-list-williams">
+          <thead>
+            <tr>
+              <th class="doc" colspan="2">Dr. Williams (Rm 3)</th>
+            </tr>
+            <tr>
+              <th>#</th>
+              <th>Patient Name</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
       </div>
     </div>
 
-    <div class="tables">
-      <table id="waiting-list-lee">
-        <thead>
-          <tr>
-            <th class="doc" colspan="2">Dr. Lee (Rm 1)</th>
-          </tr>
-          <tr>
-            <th>#</th>
-            <th>Patient Name</th>
-          </tr>
-        </thead>
-        <tbody></tbody>
-      </table>
-
-      <table id="waiting-list-smith">
-        <thead>
-          <tr>
-            <th class="doc" colspan="2">Dr. Smith (Rm 2)</th>
-          </tr>
-          <tr>
-            <th>#</th>
-            <th>Patient Name</th>
-          </tr>
-        </thead>
-        <tbody></tbody>
-      </table>
-
-      <table id="waiting-list-williams">
-        <thead>
-          <tr>
-            <th class="doc" colspan="2">Dr. Williams (Rm 3)</th>
-          </tr>
-          <tr>
-            <th>#</th>
-            <th>Patient Name</th>
-          </tr>
-        </thead>
-        <tbody></tbody>
-      </table>
-    </div>
-
-    <script src="sampleData.js"></script>
     <script src="script.js"></script>
   </body>
 </html>
