@@ -35,4 +35,4 @@ The project is designed with a clean and user-friendly interface. It displays th
 
 ## Preview
 
-![image](https://github.com/dimicodes/Hospital-Waiting-List-Program/assets/45632694/f8b8b188-2c92-4816-bb67-d37c6d12875f)
+![image](https://github.com/dimicodes/Hospital-Waiting-List-Program/assets/45632694/d1c68471-c41e-48ff-93c5-ea9d941e4a8b)
