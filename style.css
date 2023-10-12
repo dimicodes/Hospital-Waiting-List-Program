@@ -1,0 +1,88 @@
+body {
+    font: 400 1em 'Raleway', sans-serif;
+    text-transform: uppercase;
+    color: whitesmoke;
+    text-align: center;
+    background-color: #1c5d99;
+  }
+
+  h1 {
+    margin-top: 50px;
+    font-size: 2.5rem;
+  }
+
+  .doc {
+    color: #bbcde5;
+    font: 600 1.4em 'Raleway', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+  }
+  
+  .tables {
+    margin-top: 3%;
+    display: inline-flex;
+    background-color: #A6BEDD;
+    padding: 40px;
+    border-radius: 10px;
+  }
+
+  table {
+    width: 30%;
+    margin: 0 2%;
+    border-collapse: collapse;
+    background-color: #222222;
+    border-radius: 10px;
+    border: none !important;
+  }
+
+  td {
+    border-top: 1px solid #000000; /* Keep the top border */
+    border-bottom: none; /* Remove the bottom border */
+    border-left: none; /* Remove the left border */
+    border-right: none; /* Remove the right border */
+  }
+
+  .top-name {
+    background-color: #639fab;
+  }
+
+  table th:first-child {
+    width: 50px !important; /* Set the width of the first (Queue #) column */
+  }
+
+  th:nth-child(2) {
+    width: 300px; /* Set the width of the second (Patient Name) column */
+  }
+
+  th, td {
+    padding: 10px;
+    height: 15px;
+  }
+  
+  .labels {
+    margin-top: 20px;
+    width: 150px;
+    border-radius: 3px;
+    border: none;
+    box-shadow: none;
+    margin-left: 10px;
+    height: 22px;
+    text-align: center !important;
+    }
+  
+
+  button {
+    margin: 10px;
+    background-color: #0D2A45;
+    margin-top: 3%;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font: 400 1em 'Raleway', sans-serif;
+  }
+  
