@@ -7,6 +7,7 @@ body {
   }
 
   h1 {
+    color: #0b3359;
     margin-top: 50px;
     font-size: 2.5rem;
   }
@@ -20,10 +21,19 @@ body {
   }
   
   .tables {
-    margin-top: 3%;
+    margin-top: 1%;
+    margin-bottom: 3%;
     display: inline-flex;
     background-color: #A6BEDD;
     padding: 40px;
+    border-radius: 10px;
+  }
+
+  .admin-panel {
+    background-color: #A6BEDD;
+    width: 40%;
+    margin: 3% 30%;
+    padding: 10px;
     border-radius: 10px;
   }
 
@@ -73,9 +83,9 @@ body {
   
 
   button {
-    margin: 10px;
+    margin: 15px;
     background-color: #0D2A45;
-    margin-top: 3%;
+    margin-top: 4%;
     border: none;
     border-radius: 5px;
     color: white;
