@@ -57,7 +57,7 @@ let fastestDoctorList;
 
 
 // Gets the patient list of the fastest doctor
-(function fastestDoctorConversion() {
+function fastestDoctorConversion() {
     if (fastestDoctor === "drLee") {
         fastestDoctorList = drLee;
     } else if (fastestDoctor === "drSmith") {
@@ -65,7 +65,7 @@ let fastestDoctorList;
     } else if (fastestDoctor === "drWilliams") {
         fastestDoctorList = drWilliams;
     }
-})();
+}
 
 
 
@@ -275,6 +275,8 @@ function simulateDoctor(doctor, doctorName) {
 
 
 // Start the simulation when the page loads
+fastestDoctorConversion();
+
 simulateDoctor(drLee, "drLee");
 simulateDoctor(drSmith, "drSmith");
 simulateDoctor(drWilliams, "drWilliams");
