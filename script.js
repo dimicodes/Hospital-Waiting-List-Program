@@ -169,7 +169,7 @@ function updateWaitingList() {
             cell2Williams.className = "top-name";
         } else {
         cell1Williams.innerHTML = i + 1;
-        cell2Williams.innerHTML = drSmith[i].name;
+        cell2Williams.innerHTML = drWilliams[i].name;
       }
     }
   }
